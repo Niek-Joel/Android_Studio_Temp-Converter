@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android_Studio_Temp-Converter</string>
+    <string name="convert_button">Convert</string>
+    <string name="celsius">Celsius:</string>
+    <string name="fahrenheit">Fahrenheit:</string>
+    <string name="empty">""</string>
+</resources>
