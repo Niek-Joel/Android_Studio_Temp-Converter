@@ -34,27 +34,32 @@
 
     <EditText
         android:id="@+id/fahrenheitEdit"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:inputType="number|numberDecimal"
         android:minHeight="48dp"
         android:text="@string/empty"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/fahrenheitView"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         tools:ignore="Autofill,LabelFor,DuplicateSpeakableTextCheck" />
 
     <EditText
         android:id="@+id/celsiusEdit"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="number|numberDecimal"
         android:minHeight="48dp"
         android:text="@string/empty"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/celsiusView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
         tools:ignore="Autofill,LabelFor" />
